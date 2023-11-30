@@ -1,0 +1,7 @@
+services:
+  laravel-menu-app:
+    image: mcr.microsoft.com/devcontainers/php:1-8.2-bullseye
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    volumes:
+      - ..:/home/vscode/laravel

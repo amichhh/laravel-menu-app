@@ -1,0 +1,22 @@
+{
+  "name": "laravel-menu-app",
+  "dockerComposeFile": [
+    "./compose.yml"
+  ],
+  "service": "laravel-menu-app",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "xdebug.php-pack",
+        "eamodio.gitlens",
+        "onecentlin.laravel-extension-pack"
+      ]
+    }
+  },
+  "forwardPorts": [
+    8080
+  ],
+  "workspaceFolder": "/home/vscode/laravel",
+  "remoteUser": "root"
+}
